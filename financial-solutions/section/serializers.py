@@ -6,6 +6,11 @@ from rest_framework.exceptions import APIException
 
 
 
+
+
+
+
+
 class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
